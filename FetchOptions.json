@@ -1,0 +1,16 @@
+{
+    "collection": "Transaction",
+    "limit": 10000000,
+    "sortBy": "blockNumber",
+    "sortDirection": 1,
+    "filter": {
+        "filterName": "PairSwapsBetweenTimestamp",
+        "vars": {
+            "pairAddress": "0x4505b262dc053998c10685dc5f9098af8ae5c8ad",
+            "lowerTimestamp": 1599154210,
+            "higherTimestamp": 1605037245,
+            "blockFloor": 11814253,
+            "blockCeil": 12814253
+        }
+    }
+}
